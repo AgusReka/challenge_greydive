@@ -6,7 +6,7 @@
   width: 90vw;
   min-height: 100vh;
   gap: 1rem;
-  h1{
+  h1 {
     display: flex;
     align-items: left;
     justify-content: flex-start;
@@ -21,7 +21,15 @@
     gap: 1rem;
 
     span {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1rem;
       font-size: 1.2rem;
+      a{
+        text-decoration: underline;
+        color: #a537ff;
+      }
     }
   }
   label {
@@ -87,11 +95,11 @@
       transform: scale(1.2);
     }
   }
-  .video{
+  .video {
     margin-top: 1rem;
     width: 100%;
   }
-  .transcription{
+  .transcription {
     font-size: 1rem;
     overflow: scroll;
     height: 30rem;

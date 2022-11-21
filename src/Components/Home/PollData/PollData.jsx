@@ -20,13 +20,19 @@ export const PollData = ({ data }) => {
         </h1>
 
         <span>
-          <label>Website:</label> <mark>{data.cliente}</mark>
+          <label>Client:</label> <mark>{data.cliente}</mark>
+        </span>
+        <span>
+          <label>Tester:</label> <mark>Tester Name</mark>
         </span>
         <span>
           <label>Pool Duration:</label> <mark>{data.timeTest}</mark>
         </span>
         <span>
           <label>Escenario:</label> <mark>{data.escenario}</mark>
+        </span>
+        <span>
+          <label>Website:</label> <a href={data.link}><mark>{data.link}</mark></a>
         </span>
       </header>
 
